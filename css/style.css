@@ -1,0 +1,141 @@
+.slide {
+	position: relative;
+	width: 625px;
+}
+.button {
+	position: absolute;
+	bottom: 0px;
+	margin:0 auto;
+	width: 100%;
+	text-align: center;
+}
+.button ul li {
+	list-style-type: none;
+	display: inline-block;
+	}
+.button li a {
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	border: 2px solid white;
+	color: white;
+	background-color: black;
+	margin: 3px;
+}
+.progres {
+	position: relative;
+	width: 600px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: silver;
+	overflow: hidden;
+}
+.progres::before {
+	content: '';
+	width: 30%;
+	height: 20px;
+	background-color: blue;
+	position: absolute;
+}
+.container ul li {
+	display: inline-block;
+}
+.container li {
+	list-style-type: none;
+}
+.container a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid silver;
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+.container a:hover {
+	border-bottom: 3px solid black;
+}
+.new {
+	border-bottom: 3px solid black;
+}
+.form {
+	width: 400px;
+	padding-left: 50px;
+}
+.forma {
+	margin:0 auto;
+}
+.forma input {
+	margin-bottom: 10px;
+}
+ input:valid + input::after, input:invalid + input:before {
+
+
+}
+.container2 {
+	width: 100%;
+	background-color: orange;
+}
+
+.container2 ul li {
+	display: inline-block;
+	width: 50px;
+	border-left: 1px solid silver;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	color: white;
+}
+.pogoda {
+	width: 300px;
+	display: flex;
+}
+.blocki {
+	width: 98px;
+	text-align: center;
+	border:1px solid silver;
+
+}
+.blocki: hover {
+	
+}
+.blocki p {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+.kartin {
+	text-align: center;
+}
+.kartin img {
+	width: 70px;
+}
+.blocki a {
+	text-decoration: none;
+}
+
+.primer {
+	position: relative;
+	width: 800px;
+	margin:0 auto;
+	border:1px solid silver;
+}
+.red {
+	width: 200px;
+	top: 0px;
+	left: 0px;
+	background-color: #e24c8c;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+.primer a {
+	display: block;
+	padding: 10px;
+}
